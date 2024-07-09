@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum-Kit</title>
+    <link rel="stylesheet" href="./Drum-Kit.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <div
+        class="main w-full h-screen flex flex-wrap justify-evenly gap-3 items-center bg-cover text-center text-white text-2xl px-3">
+        <div class="key" data-key="65">
+            <kbd>A</kbd>
+            <p>Boom</p>
+        </div>
+        <div class="key" data-key="83">
+            <kbd>S</kbd>
+            <p>Clap</p>
+        </div>
+        <div class="key" data-key="68">
+            <kbd>D</kbd>
+            <p>HiHat</p>
+        </div>
+        <div class="key" data-key="70">
+            <kbd>F</kbd>
+            <p>Kick</p>
+        </div>
+        <div class="key" data-key="71">
+            <kbd>G</kbd>
+            <p>OpenHat</p>
+        </div>
+        <div class="key" data-key="72">
+            <kbd>H</kbd>
+            <p>Ride</p>
+        </div>
+        <div class="key" data-key="74">
+            <kbd>J</kbd>
+            <p>Snare</p>
+        </div>
+        <div class="key" data-key="75">
+            <kbd>K</kbd>
+            <p>Tink</p>
+        </div>
+        <div class="key" data-key="76">
+            <kbd>L</kbd>
+            <p>Tom</p>
+        </div>
+    </div>
+
+    <audio data-key="65" src="./boom.wav"></audio>
+    <audio data-key="83" src="./clap.wav"></audio>
+    <audio data-key="68" src="./hihat.wav"></audio>
+    <audio data-key="70" src="./kick.wav"></audio>
+    <audio data-key="71" src="./openhat.wav"></audio>
+    <audio data-key="72" src="./ride.wav"></audio>
+    <audio data-key="74" src="./snare.wav"></audio>
+    <audio data-key="75" src="./tink.wav"></audio>
+    <audio data-key="76" src="./tom.wav"></audio>
+
+</body>
+<script src="./index.js"></script>
+
+</html>

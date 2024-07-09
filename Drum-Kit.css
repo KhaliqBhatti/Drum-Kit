@@ -1,0 +1,23 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.main {
+  background-image: linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0.764),
+      rgba(22, 21, 21, 0.777)
+    ),
+    url(./lucia-macedo-d9_2kPJBG0U-unsplash.jpg);
+}
+.main > div {
+  border-radius: 20px;
+  border: 2px solid rgba(228, 25, 255, 0.873);
+  padding: 20px;
+  transition: all 0.2s linear;
+  box-shadow: 1px 1px 20px rgb(255, 6, 255);
+}
+.press {
+  margin-top: -180px;
+  
+}
